@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/100.png">
+    <title>calculator</title>
+  </head>
+  <body>
+    <main class="main">
+        <div class="calc">
+          <div class="calc_display">
+            <input disabled type="text" id="display" value="0" name="" placeholder="000000000000000000" class="calc_display_input">
+          </div>
+          <div class="calc_buttons">
+            <table class="calc_table">
+              <tr class="calc_buttons_row">
+                <td rowspan="2">
+                  <button type="button" class="btn_equal clear_btn btn btn_hover_red" id="c">c</button>
+                </td>
+                <td rowspan="2">
+                  <button type="button" class="btn_equal clear_btn btn btn_hover_red" id="ce">ce</button>
+                </td>
+                <td>
+                  <button type="button" class="operator btn btn_hover_orange">x<sup>n</sup></button>
+                </td>
+                <td>
+                  <button type="button" class="btn btn_hover_orange" id="negative">+/-</button>
+                </td>
+              </tr>
+              <tr class="calc_buttons_row">
+                <td>
+                  <button type="button" class="btn btn_hover_orange" id="sqrt">&radic;</button>
+                </td>
+                <td>
+                  <button type="button" class="operator btn btn_hover_orange">/</button>
+                </td>
+              </tr>
+              <tr class="calc_buttons_row">
+                <td>
+                  <button type="button" class="number btn_hover_green btn">7</button>
+                </td>
+                <td>
+                  <button type="button" class="number btn_hover_green btn">8</button>
+                </td>
+                <td>
+                  <button type="button" class="number btn_hover_green btn">9</button>
+                </td>
+                <td>
+                  <button type="button" class="operator btn btn_hover_orange">*</button>
+                </td>
+              </tr>
+              <tr class="calc-buttons-row">
+                <td>
+                  <button type="button" class="number btn_hover_green btn">4</button>
+                </td>
+                <td>
+                  <button type="button" class="number btn_hover_green btn">5</button>
+                </td>
+                <td>
+                  <button type="button" class="number btn_hover_green btn">6</button>
+                </td>
+                <td>
+                  <button type="button" class="operator btn btn_hover_orange">-</button>
+                </td>
+              </tr>
+              <tr class="calc-buttons-row">
+                <td>
+                  <button type="button" class="number btn_hover_green btn">1</button>
+                </td>
+                <td>
+                  <button type="button" class="number btn_hover_green btn">2</button>
+                </td>
+                <td>
+                  <button type="button" class="number btn_hover_green btn">3</button>
+                </td>
+                <td>
+                  <button type="button" class="operator btn btn_hover_orange">+</button>
+                </td>
+              </tr>
+              <tr class="calc_buttons_row">
+                <td>
+                  <button type="button" class="number btn_hover_green btn">0</button>
+                </td>
+                <td>
+                  <button type="button" class="btn btn_hover_orange" id="decimal">.</button>
+                </td>
+                <td colspan="2">
+                  <button type="button" class="btn_long operator btn btn_hover_orange">=</button>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+    </main>
+    <script src="script.js">
+    </script>
+  </body>
+</html>
